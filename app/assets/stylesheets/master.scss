@@ -5,6 +5,7 @@
 }
 
 .circle {
+    font-family: "minipaxregular";
     font-weight:bold;
     font-style: italic;
     position: relative;
@@ -25,7 +26,7 @@
 }
 
 .slogan {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: "minipaxvariable"; 
   font-style: italic;
   padding-top: 26px;
   font-size: 25px;
@@ -39,6 +40,7 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #10c6c9;
+  font-family: "minipaxregular";
 }
 
 header {
@@ -47,4 +49,14 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: "minipaxmedium";
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "minipaxvariable";
+  font-weight: 600;
 }
