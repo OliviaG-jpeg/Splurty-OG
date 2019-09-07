@@ -29,11 +29,28 @@
       <%= link_to 'About', '#' %>
       </div>
     </header>
-
     <hr />
-
     <br class="clear" />
 
-    <%= yield %>
+    <div class="clear" />
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Proudly hacked by <a href="https://oliviagportfolio.netlify.com">Olivia Goehrig</a><br />
+            Want to build your own Splurty Web App? <a href="https://online.bootcampspot.com">Learn how to code here!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
