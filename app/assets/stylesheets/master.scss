@@ -34,7 +34,6 @@
 
 .links {
   padding-top: 26px;
-  text-align: center;
 }
 
 .links a {
@@ -80,4 +79,23 @@ h2 {
 
 .about {
   font-family: "minipaxvariable"
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
+
+.modal {
+  font-family: "minipaxvariable"
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: "minipaxmedium"
+}
+
+::selection {
+  background-color: #f84342
 }
